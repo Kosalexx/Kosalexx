@@ -4,7 +4,6 @@
 <p align="center">
 <a href="https://www.linkedin.com/in/aliaksei-kastsiuchonak/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"></a>
 </p>
-<p align="center"><img src="https://komarev.com/ghpvc/?username=Kosalexx&style=flat-square&color=blue" alt=""></p>
 
 <h1>Hi there 👋, I'm Alex</h1>
 
@@ -59,6 +58,39 @@ I'm a Python Backend Developer from Minsk.
         - Front-end: Bootstrap, HTML/CSS
         - Containerization: Docker, docker-compose
         - Tests: pytest, unittest
+</details>
+
+<details><summary>📋 Job_board app: <a href='https://github.com/Kosalexx/job_board_app'>link</a></summary>
+
+    1. Description: Job board service (hh.ru or similar analog). 
+        I developed this project while I was in IT school. 
+        The main goal of the project is to learn Django framework (DRF).
+    2. Technologies:
+        - Language: Python 3.10^
+        - Frameworks: Django, DRF
+        - Databases: PostgreSQL, Redis(cashing)
+        - Containerization: Docker, docker-compose
+        - Tests: pytest, unittest
+        - Other libraries: 
+            poetry (for dependency control), 
+            Faker (generation of random data to populate the dev database),
+            psycopg2-binary (filling dev DB with generated data using raw SQL queries)
+</details>
+
+<details><summary>🗃️ Projects and contracts: <a href='https://github.com/Kosalexx/projects_and_contracts'>link</a></summary>
+
+    1. Description: Projects_and_contracts is a Python console program for creating, 
+    modifying, and working with project and contract information). 
+        The program offers to create, delete contracts or projects,
+        view the list of contracts or projects, add a contract to a project
+        (active only) until the user wants to terminate the program.
+    2. Technologies:
+        - Language: Python 3.10^
+        - Databases: PostgreSQL
+        - Containerization: Docker, docker-compose
+        - Other libraries: 
+            poetry(for dependency control),
+            psycopg2-binary (work with PostgreSQL DB using raw SQL queries)
 </details>
 
 ---
